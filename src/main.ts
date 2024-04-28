@@ -2,7 +2,7 @@ import './style.css';
 import typescriptLogo from './typescript.svg';
 import viteLogo from '/vite.svg';
 
-import { run } from './exercises/01.observable';
+import { operatorConcatMap } from './exercises/operators/transformacion/concatMap';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -19,4 +19,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `;
 
-run();
+operatorConcatMap();
