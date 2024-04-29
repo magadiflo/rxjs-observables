@@ -2,7 +2,7 @@ import './style.css';
 import typescriptLogo from './typescript.svg';
 import viteLogo from '/vite.svg';
 
-import { operatorConcatMap } from './exercises/operators/transformacion/concatMap';
+import { operatorSwitchMap, operatorSwitchMapExpected } from './exercises/operators/transformacion/switchMap';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -19,4 +19,5 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `;
 
-operatorConcatMap();
+// operatorSwitchMap();
+operatorSwitchMapExpected();
